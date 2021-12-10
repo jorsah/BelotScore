@@ -65,7 +65,7 @@ class AddActivity : AppCompatActivity() {
                     finish()
                 }
             }
-            if(p1.x > 8){
+            if(p1.x >= 8){
                 a()
             }
         }

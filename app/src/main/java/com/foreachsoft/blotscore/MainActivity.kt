@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     private val list1 = mutableListOf<Int>()
     private val list2 = mutableListOf<Int>()
+    var sum1 = 0;var sum2 = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -24,6 +25,9 @@ class MainActivity : AppCompatActivity() {
             p1_score.text = ""
             p2_score.text = ""
             x_score.text = ""
+            sum1 = 0; sum2 = 0
+            list1.clear()
+            list2.clear()
             wf.text = "0"
             tf.text = "0"
         }
@@ -38,7 +42,6 @@ class MainActivity : AppCompatActivity() {
             x_score.text = "${x_score.text}${data?.getIntExtra("score_x",0).toString()}\n"
             list1.add(data?.getIntExtra("score_1",0)!!)
             list2.add(data?.getIntExtra("score_2",0)!!)
-            var sum1 = 0;var sum2 = 0
             for (i in (0 until list1.size)){
                 sum1 += list1[i]
                 sum2 += list2[i]
