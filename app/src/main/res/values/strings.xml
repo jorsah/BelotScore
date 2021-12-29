@@ -2,7 +2,7 @@
     <string name="app_name">Blot Score</string>
     <string name="clean">Clean</string>
     <string name="add">Add</string>
-    <string name="we">We</string>
-    <string name="they">They</string>
+    <string name="we">Մենք</string>
+    <string name="they">Դուք</string>
     <string name="x">X</string>
 </resources>

@@ -42,10 +42,8 @@ class MainActivity : AppCompatActivity() {
             x_score.text = "${x_score.text}${data?.getIntExtra("score_x",0).toString()}\n"
             list1.add(data?.getIntExtra("score_1",0)!!)
             list2.add(data?.getIntExtra("score_2",0)!!)
-            for (i in (0 until list1.size)){
-                sum1 += list1[i]
-                sum2 += list2[i]
-            }
+            sum1 = list1.sum()
+            sum2 = list2.sum()
             wf.text = sum1.toString()
             tf.text = sum2.toString()
         }
