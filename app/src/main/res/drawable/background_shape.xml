@@ -9,7 +9,7 @@
     <solid
         android:color="@color/teal_201"/>
     <gradient
-        android:startColor="#7583CC"
-        android:centerColor="#8C9EFF"
-        android:endColor="#A6B2F6"/>
+        android:startColor="#8A96DC"
+        android:centerColor="#A6B3F8"
+        android:endColor="#C5CCF4"/>
 </shape>

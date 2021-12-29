@@ -11,6 +11,9 @@
     <solid
         android:color="#B388FF"/>
     <gradient
-        android:endColor="#92CFBFED"
-        android:startColor="#A77FED"/>
+        android:endColor="#92B4B2E3"
+        android:startColor="#696CAF"/>
+
 </shape>
+
+
